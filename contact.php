@@ -43,7 +43,7 @@
     </section>
 
     <footer style="background: #1d3557; color: #fff; padding: 20px 0; text-align: center;">
-        <p style="margin: 0;">&copy; <?php echo date('Y') ?>. <span style="font-weight: bold;">Kelompok 4</span> | Sistem Penyimpanan Berkas Terdistribusi</p>
+        <p style="margin: 0;">&copy; <?php echo date('Y') ?>. <span style="font-weight: bold;">Kelompok 9</span> | Sistem Penyimpanan Berkas Terdistribusi</p>
     </footer>
 
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
