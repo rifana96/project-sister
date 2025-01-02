@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="../assets/style.css">
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/stylebaru.css">
 
     <link rel="stylesheet" type="text/css" href="../assets/js/DataTables/datatables.css">
 

@@ -1,0 +1,23 @@
+.header-top-area {
+    background: linear-gradient(45deg, #1d3557, #457b9d);
+}
+
+.footer-copyright-area {
+    background-color: #1d3557;
+}
+
+#menu1 li a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menu1 li a:hover {
+    background-color: #007bff;
+    background: linear-gradient(45deg, #1d3557, #457b9d);
+    color: #fff;
+}
+
+
+.metismenu li a:hover .educate-icon {
+    color: #fff;
+}
+

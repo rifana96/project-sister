@@ -53,6 +53,7 @@
 		$('.table-datatable').DataTable();
 	} );
 </script>
+<link rel="stylesheet" href="../assets/css/stylebaru.css">
 </body>
 
 </html>
