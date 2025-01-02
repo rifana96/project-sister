@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="breadcome-heading">
-                                <h4 style="margin-bottom: 0px">Data File</h4>
+                                <h4 style="margin-bottom: 0px">Data Arsip</h4>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -28,7 +28,7 @@
     <div class="panel panel">
 
         <div class="panel-heading">
-            <h3 class="panel-title">Semua File</h3>
+            <h3 class="panel-title">Semua file user</h3>
         </div>
         <div class="panel-body">
 
@@ -110,5 +110,5 @@
     </div>
 </div>
 
-
+<br><br><br><br><br><br><br><br><br><br><br>
 <?php include 'footer.php'; ?>

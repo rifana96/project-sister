@@ -137,7 +137,7 @@
                                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
                                         <div class="header-top-menu tabl-d-n">
                                             <ul class="nav navbar-nav mai-top-nav">
-                                                <li class="nav-item"><a class="nav-link">Sistem Penyimpanan Berkas Terdistribusi</a></li>
+                                                <li class="nav-item"><a class="nav-link" style="font-size: 1rem;"><strong>Sistem Penyimpanan Berkas Terdistribusi</strong></a></li>
                                             </ul>
                                         </div>
                                     </div>

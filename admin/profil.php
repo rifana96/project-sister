@@ -39,7 +39,7 @@
                     <div class="single-product-image">
                         <a href="#">
 
-                            <img src="../assets/img/product/archive.jpg" alt="">
+                            <img src="../assets/img/product/bekgron2.jpg" alt="">
                         </a>
                     </div>
 
@@ -115,5 +115,5 @@
     </div>
 </div>
 
-
+<br><br><br><br><br>
 <?php include 'footer.php'; ?>
