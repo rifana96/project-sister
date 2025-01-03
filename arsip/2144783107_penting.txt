@@ -1,0 +1,20 @@
+header {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #333232; /* Warna abu-abu pada bar navigasi */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b0b0b0; /* Warna background untuk dropdown */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 50%; /* Mengatur dropdown agar terletak di tengah bawah tombol Genre */
+    transform: translateX(-50%); /* Menggeser dropdown agar tepat di bawah dan terpusat */
+    top: 28px; /* Menggeser dropdown ke bawah agar tidak memotong navbar */
+}
+
+
+     

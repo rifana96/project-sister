@@ -45,10 +45,10 @@
 
                     <form method="post" action="arsip_aksi.php" enctype="multipart/form-data">
 
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label>Kode File</label>
                             <input type="text" class="form-control" name="kode" required="required">
-                        </div>
+                        </div> -->
 
                         <div class="form-group">
                             <label>Nama File</label>

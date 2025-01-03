@@ -103,7 +103,6 @@
                             <td><?php echo date('H:i:s  d-m-Y',strtotime($p['arsip_waktu_upload'])) ?></td>
                             <td>
 
-                                <b>KODE</b> : <?php echo $p['arsip_kode'] ?><br>
                                 <b>Nama</b> : <?php echo $p['arsip_nama'] ?><br>
                                 <b>Jenis</b> : <?php echo $p['arsip_jenis'] ?><br>
 

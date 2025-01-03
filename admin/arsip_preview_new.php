@@ -52,10 +52,6 @@
 
                                 <table class="table">
                                     <tr>
-                                        <th>Kode Arsip</th>
-                                        <td><?php echo $d['arsip_kode']; ?></td>
-                                    </tr>
-                                    <tr>
                                         <th>Waktu Upload</th>
                                         <td><?php echo date('H:i:s  d-m-Y',strtotime($d['arsip_waktu_upload'])) ?></td>
                                     </tr>

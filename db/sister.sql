@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 02 Jan 2025 pada 20.52
+-- Waktu pembuatan: 03 Jan 2025 pada 10.53
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -52,7 +52,6 @@ CREATE TABLE `arsip` (
   `arsip_id` int(11) NOT NULL,
   `arsip_waktu_upload` datetime NOT NULL,
   `arsip_petugas` int(11) NOT NULL,
-  `arsip_kode` varchar(255) NOT NULL,
   `arsip_nama` varchar(255) NOT NULL,
   `arsip_jenis` varchar(255) NOT NULL,
   `arsip_kategori` int(11) NOT NULL,
@@ -64,10 +63,9 @@ CREATE TABLE `arsip` (
 -- Dumping data untuk tabel `arsip`
 --
 
-INSERT INTO `arsip` (`arsip_id`, `arsip_waktu_upload`, `arsip_petugas`, `arsip_kode`, `arsip_nama`, `arsip_jenis`, `arsip_kategori`, `arsip_keterangan`, `arsip_file`) VALUES
-(16, '2024-12-29 14:38:43', 9, '12345', 'Laporan Metnum', 'pdf', 11, 'Ini pdf laporan metnum', '1814145498_Laporan_Permintaan_Barang (18).pdf'),
-(17, '2024-12-29 14:42:03', 8, '123456', 'Laporan keuangan', 'pdf', 11, 'ini laporan keuangan PIPL', '172596274_Laporan_Permintaan_Barang.pdf'),
-(21, '2025-01-03 00:33:24', 19, '12345', 'Tugas', 'pdf', 4, 'abcdefg', '1708768642_Laporan Perkembangan-2201020053.pdf');
+INSERT INTO `arsip` (`arsip_id`, `arsip_waktu_upload`, `arsip_petugas`, `arsip_nama`, `arsip_jenis`, `arsip_kategori`, `arsip_keterangan`, `arsip_file`) VALUES
+(21, '2025-01-03 00:33:24', 19, 'Tugas', 'pdf', 4, 'abcdefg', '1708768642_Laporan Perkembangan-2201020053.pdf'),
+(22, '2025-01-03 16:52:26', 18, 'Perancangan Web', 'txt', 13, 'Tugas perancangan web', '2144783107_penting.txt');
 
 -- --------------------------------------------------------
 
@@ -91,7 +89,8 @@ INSERT INTO `kategori` (`kategori_id`, `kategori_nama`, `kategori_keterangan`) V
 (7, 'Surat Kesehatan', 'Format Surat kesehatan '),
 (8, 'Surat Lampiran Skripsi', 'Surat lampiran untuk skripsi'),
 (11, 'Laporan', 'Format Laporan Tugas, Penelitian Dan lain lain.'),
-(12, 'Gambar & Video', 'Format Gambar & Video apa saja');
+(12, 'Gambar & Video', 'Format Gambar & Video apa saja'),
+(13, 'Tugas', 'Format Dokumen apa saja');
 
 -- --------------------------------------------------------
 
@@ -204,13 +203,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT untuk tabel `arsip`
 --
 ALTER TABLE `arsip`
-  MODIFY `arsip_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `arsip_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT untuk tabel `kategori`
 --
 ALTER TABLE `kategori`
-  MODIFY `kategori_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `kategori_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT untuk tabel `riwayat`

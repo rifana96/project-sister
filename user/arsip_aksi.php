@@ -5,7 +5,6 @@ date_default_timezone_set('Asia/Jakarta');
 
 $waktu = date('Y-m-d H:i:s'); 
 $petugas = $_SESSION['id'];
-$kode  = $_POST['kode'];
 $nama  = $_POST['nama'];
 
 $rand = rand();
@@ -21,6 +20,6 @@ if($jenis == "php") {
 }else{
 	move_uploaded_file($_FILES['file']['tmp_name'], '../arsip/'.$rand.'_'.$filename);
 	$nama_file = $rand.'_'.$filename;
-	mysqli_query($koneksi, "insert into arsip values (NULL,'$waktu','$petugas','$kode','$nama','$jenis','$kategori','$keterangan','$nama_file')")or die(mysqli_error($koneksi));
+	mysqli_query($koneksi, "insert into arsip values (NULL,'$waktu','$petugas','$nama','$jenis','$kategori','$keterangan','$nama_file')")or die(mysqli_error($koneksi));
 	header("location:arsip.php?alert=sukses");
 }
