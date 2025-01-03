@@ -2,7 +2,9 @@
 
 <!DOCTYPE html>
 <html lang="id">
-
+<head>
+    <title>Data Arsip</title>
+</head>
 <div class="breadcome-area">
     <div class="container-fluid">
         <div class="row">

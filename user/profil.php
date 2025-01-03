@@ -1,5 +1,9 @@
 <?php include 'header.php'; ?>
 
+<head>
+    <title>Profil User</title>
+</head>
+
 <div class="breadcome-area">
     <div class="container-fluid">
         <div class="row">
@@ -69,7 +73,7 @@
                 <?php 
                 if(isset($_GET['alert'])){
                     if($_GET['alert'] == "sukses"){
-                        echo "<div class='alert alert-success'>Password anda berhasil diganti!</div>";
+                        echo "<div class='alert alert-success'>Profil anda berhasil diupdate!</div>";
                     }
                 }
                 ?>

@@ -1,5 +1,9 @@
 <?php include 'header.php'; ?>
 
+<head>
+    <title>Data User</title>
+</head>
+
 <div class="breadcome-area">
     <div class="container-fluid">
         <div class="row">

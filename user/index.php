@@ -1,5 +1,9 @@
 <?php include 'header.php'; ?>
 
+<head>
+    <title>Dashboard</title>
+</head>
+
 <div class="breadcome-area">
     <div class="container-fluid">
         <div class="row">
