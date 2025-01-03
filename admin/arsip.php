@@ -1,5 +1,8 @@
 <?php include 'header.php'; ?>
 
+<!DOCTYPE html>
+<html lang="id">
+
 <div class="breadcome-area">
     <div class="container-fluid">
         <div class="row">
